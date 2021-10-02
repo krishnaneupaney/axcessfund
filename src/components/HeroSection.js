@@ -10,7 +10,7 @@ function HeroSection() {
             <h1>Welcome To Axcess Fund</h1>
             <p>A New Way Of Borrowing Money</p>
             <p>For your Needs, Not wants</p>
-            <p>No hidden fees, high-interests or bogous</p>
+            <p>No hidden fees, high-interests or bogus fees</p>
             <div className='hero-btns'>
                 <Button
                     className='btns'
