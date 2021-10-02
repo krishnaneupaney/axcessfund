@@ -18,12 +18,12 @@ function HeroSection() {
                     buttonSize='btn--large'>
                     But How This Works?
                 </Button>
-                {/* <Button
+                <Button
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'>
-                       WATCH MY INTRO <i className='far fa-play-circle' />
-                </Button> */}
+                    WATCH OUR INTRO <i className='far fa-play-circle' />
+                </Button>
             </div>
         </div>
     )
