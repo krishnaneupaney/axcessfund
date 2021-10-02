@@ -14,26 +14,19 @@ function Cards() {
             <CardItem
               src='images/signupd.png'
               text='first, a simple-users signup form'
-              label='Adventure'
+              label='Excited'
               path='/products'
             />
 
             {/* <Link to="/https://krishnaneupaney.github.io/project1/" /> */}
 
-            <a href="https://krishnaneupaney.github.io/project1/">Link</a>
             <CardItem
               src="images/bills.png"
               text="Second, simply add the bills you would like to get funded for"
-              label="ShopWhileYouVisit"
+              label="Heartbeat"
               path='/about'
             />
-            {/* <a href="https://axcessnutrition.netlify.app/"></a>
-            <CardItem
-              src="images/bills.png"
-              text="My first algorithm based app where I used Dijkstra algo which gurantee sortest path"
-              label="Visualize"
-              path='/about'
-            /> */}
+
 
             <a href="https://algopathfinder.netlify.app/"></a>
             <CardItem
@@ -42,18 +35,25 @@ function Cards() {
               label='Extreme Adventure'
               path='/about'
             />
+            <CardItem
+              src="images/select.png"
+              text="Lastly, select how long you need to pay back, set-up amount you can afford to pay monthly and relax"
+              label="Relax"
+              path='/about'
+            />
           </ul>
           <a href="https://axcessbookreview.netlify.app/posts/"></a>
           <ul className='cards__items'>
 
-            <CardItem
+            <a href="https://axcessnutrition.netlify.app/"></a>
+
+            {/* <CardItem
               src='images/select.png'
               href='https://travlr-group.netlify.app/'
-              text='Lastly, select how long you need to pay back, set-up amount you can afford to pay monthly and relax'
+              text=''
               label='Adventure'
               path='/sign-up'
-            />
-            <a href="https://travlr-group.netlify.app/">Link</a>
+            /> */}
           </ul>
         </div>
       </div>
