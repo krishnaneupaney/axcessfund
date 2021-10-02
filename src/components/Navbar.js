@@ -52,7 +52,9 @@ function Navbar() {
                             <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
                                 Resources
                             </Link>
+
                         </li>
+
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links-mobile' onClick={ContactForm}>
                                 Contact US
@@ -60,7 +62,7 @@ function Navbar() {
                         </li>
 
                     </ul>
-                    {button && <Button buttonStyle='btn--outline' Link to="/contact">Contact Me</Button>}
+                    {button && <Button buttonStyle='btn--outline' Link to="/contact">Login</Button>}
 
                 </div>
             </nav>
