@@ -51,6 +51,7 @@ function Footer() {
               Axcess Fund
               <i class='fab fa-typo3' />
             </Link>
+
           </div>
           <small class='website-rights'>Axcess Fund © 2020</small>
           <div class='social-icons'>

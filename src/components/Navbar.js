@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button';
 import ContactForm from './pages/Contact';
+import Login from './pages/Login';
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -50,20 +51,20 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                Resources
+                            <Link to='/contact' className='nav-links' onClick={closeMobileMenu} onSubmit={ContactForm}>
+                                Contact
                             </Link>
 
                         </li>
 
                         <li className='nav-item'>
-                            <Link to='/contact' className='nav-links-mobile' onClick={ContactForm}>
+                            <Link to='/login' className='nav-links-mobile' onClick={closeMobileMenu} onSubmit={Login}>
                                 Login
                             </Link>
                         </li>
 
                     </ul>
-                    {button && <Button buttonStyle='btn--outline' Link to="/auth">Login</Button>}
+                    {button && <Button buttonStyle='btn--outline' Link to="/login" onClick={closeMobileMenu} onSubmit={Login}>Login</Button>}
 
                 </div>
             </nav>
