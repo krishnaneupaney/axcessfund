@@ -52,7 +52,7 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links' onClick={closeMobileMenu} onSubmit={ContactForm}>
-                                Contact
+                                Contact Us
                             </Link>
 
                         </li>
