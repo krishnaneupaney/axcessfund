@@ -55,7 +55,7 @@ function Footer() {
           </div>
           <small class='website-rights'>Axcess Fund © 2020</small>
           <div class='social-icons'>
-            <a href="https://facebook/axcessfund" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="krishnaneupaney" height="30" width="40" /></a>
+            <a href="https://facebook.com/axcessfund" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="krishnaneupaney" height="30" width="40" /></a>
             <a href="https://instagram.com/axcessfund" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="krishnaneupaney" height="30" width="40" /></a>
             <a href="https://www.linkedin.com/in/axcessfund/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="krishnaneupaney" height="30" width="40" /></a>
           </div>
