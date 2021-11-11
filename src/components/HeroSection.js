@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src='/videos/video-2.mp4' autoPlay loop muted />
+            {/* <video src='/videos/video-2.mp4' autoPlay loop muted /> */}
             <h1>Welcome To Axcess Fund</h1>
             <p>A New Way Of Borrowing Money</p>
             <p>For your Needs, Not wants</p>

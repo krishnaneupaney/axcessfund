@@ -46,7 +46,7 @@ const Form = ({ currentId, setCurrentId }) => {
 
     return (
         <Paper className={classes.paper}>
-            <Dropdown>
+            {/* <Dropdown>
                 <Dropdown.Toggle variant="success" id="dropdown-basic">
                     Dropdown Button
                 </Dropdown.Toggle>
@@ -56,7 +56,7 @@ const Form = ({ currentId, setCurrentId }) => {
                     <Dropdown.Item href="">Another action</Dropdown.Item>
                     <Dropdown.Item href="">Something else</Dropdown.Item>
                 </Dropdown.Menu>
-            </Dropdown>
+            </Dropdown> */}
             <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
                 <Typography variant="h6">{currentId ? `Editing "${post.name}"` : 'Add Your Bill'}</Typography>
                 <TextField name="creator" variant="outlined" label="Creator" fullWidth value={postData.creator} onChange={(e) => setPostData({ ...postData, creator: e.target.value })} />
