@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { TextField, Button, Typography, Paper } from '@material-ui/core';
+import { TextField, Button, Typography, Paper, Link } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux';
 import FileBase from 'react-file-base64';
 import { createPost, updatePost } from '../../action/posts';
 import useStyles from './styles';
-import { Dropdown } from 'react-bootstrap';
+
+
+
 
 const Form = ({ currentId, setCurrentId }) => {
     const [postData, setPostData] = useState({ creator: '', name: '', number: '', amount: '', tags: '', selectedFile: '' });
@@ -38,7 +40,7 @@ const Form = ({ currentId, setCurrentId }) => {
         return (
             <Paper className={classes.paper}>
                 <Typography variant="h6" align="center">
-                    Sign In/ Sign up to add your bill!
+                    Sign In/Sign Up to add Bill
                 </Typography>
             </Paper>
         );
@@ -46,17 +48,6 @@ const Form = ({ currentId, setCurrentId }) => {
 
     return (
         <Paper className={classes.paper}>
-            {/* <Dropdown>
-                <Dropdown.Toggle variant="success" id="dropdown-basic">
-                    Dropdown Button
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                    <Dropdown.Item href="">Action</Dropdown.Item>
-                    <Dropdown.Item href="">Another action</Dropdown.Item>
-                    <Dropdown.Item href="">Something else</Dropdown.Item>
-                </Dropdown.Menu>
-            </Dropdown> */}
             <form autoComplete="off" noValidate className={`${classes.root} ${classes.form}`} onSubmit={handleSubmit}>
                 <Typography variant="h6">{currentId ? `Editing "${post.name}"` : 'Add Your Bill'}</Typography>
                 <TextField name="creator" variant="outlined" label="Creator" fullWidth value={postData.creator} onChange={(e) => setPostData({ ...postData, creator: e.target.value })} />

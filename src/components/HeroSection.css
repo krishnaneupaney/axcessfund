@@ -13,7 +13,7 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(26, 236, 243, 0.699);
+  box-shadow: inset 0 0 0 1000px rgba(51, 225, 231, 0.699);
   object-fit: contain;
 }
 
