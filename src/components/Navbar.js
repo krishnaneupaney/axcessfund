@@ -99,7 +99,7 @@ function Navbar() {
                                 <Button variant="contained" className={classes.logout} color="secondary" onClick={logout}>Logout</Button>
                             </div>
                         ) : (
-                            <Button component={Link} to="/auth" variant="contained" color="primary">Sign In</Button>
+                            <Button component={Link} to="/auth" variant="contained" color="primary">Login</Button>
                         )}
                     </Toolbar>
                     {/* <Button buttonStyle='btn--outline' Link to="/login" onClick={closeMobileMenu} onSubmit={Login}>Login</Button> */}

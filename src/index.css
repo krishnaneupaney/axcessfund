@@ -5,14 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: absolute;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 html,
 body,
@@ -21,6 +20,6 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: #80aaad;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
 }

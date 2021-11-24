@@ -7,6 +7,9 @@ function About() {
         <>
             <div className='studently'>
                 <br />
+                <br />
+                <br />
+                <br />
                 <h3>Axcess Fund aims to provide a funding platform where individuals can borrow money instantly to pay their essential bills.
                     Especially, in this trying time, millions of people are struggling to make end meets.
                     <br />
@@ -58,7 +61,7 @@ function About() {
                         <a href="https://github.com/krishnaneupaney" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" alt="krishnaneupaney" height="30" width="40" /></a>
                         <a href="https://codepen.io/krishna" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" alt="esin87" height="30" width="40" /></a>
                         <a href="https://dev.to/krishnaneupaney" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="krishnaneupaney" height="30" width="40" /></a>
-                        <a href="https://linkedin.com/in/krishnaneupaney" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="krishnaneupaney" height="30" width="40" /></a>
+                        <a href="https://www.linkedin.com/company/axcessfund" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="krishnaneupaney" height="30" width="40" /></a>
                         <a href="https://codesandbox.com/krishnaneupaney" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codesandbox.svg" alt="krishnaneupaney" height="30" width="40" /></a>
                         <a href="https://instagram.com/krishnaneupaney" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="krishnaneupaney" height="30" width="40" /></a>
                         <a href="https://facebook.com/krishnaneupaney" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="krishnaneupaney" height="30" width="40" /></a>
