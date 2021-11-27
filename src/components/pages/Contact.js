@@ -141,7 +141,7 @@ class ContactForm extends React.Component {
     } else {
       return (
         <div className="thankyou_details">
-          <div className="alert alert-success mt-3">Thank for your information. I will contact you as soon as possible.</div>
+          <div className="alert alert-success mt-3">Thank for your information. We'll contact you as soon as possible.</div>
           <ul className="list-group">
             <li className="list-group-item">Name: {this.state.name}</li>
             <li className="list-group-item">Email: {this.state.email}</li>
