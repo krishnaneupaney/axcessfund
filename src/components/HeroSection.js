@@ -29,6 +29,12 @@ function HeroSection() {
                 <br />
                 <br />
                 <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
                 <div className='hero-btns'>
                     <Button
                         className='btns'
@@ -45,7 +51,6 @@ function HeroSection() {
                 </div>
             </div>
             <br />
-
         </>
     )
 }
