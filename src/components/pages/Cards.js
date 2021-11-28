@@ -14,7 +14,6 @@ function Cards() {
             <CardItem
               src='images/signupd.png'
               text='first, a simple-users signup form'
-              label='Excited'
               path='/products'
             />
 
@@ -23,8 +22,7 @@ function Cards() {
             <CardItem
               src="images/bills.png"
               text="Second, simply add the bills you would like to get funded for"
-              label="Heartbeat"
-              path='/about'
+
             />
 
 
@@ -32,14 +30,12 @@ function Cards() {
             <CardItem
               src='images/apply.png'
               text='Third, apply for the amount of funding require, 98% of time get instant decision!'
-              label='Extreme Adventure'
-              path='/about'
+
             />
             <CardItem
               src="images/select.png"
               text="Lastly, select how long you need to pay back, set-up amount you can afford to pay monthly and relax"
-              label="Relax"
-              path='/about'
+
             />
           </ul>
           <a href="https://axcessbookreview.netlify.app/posts/"></a>
