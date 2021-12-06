@@ -11,25 +11,32 @@ function About() {
 
                 <h1>Our Mission is what moves us forwards </h1>
                 <br />
-                <h2>to build financial product that improves life</h2>
+                <h2>To deliver genuine financial products that improves lives of people we serve!</h2>
                 <br />
-                Axcess Fund will provide easy-to-use platform individuals can apply to get fund to pay bills including:
-
+                Axcess Fund will provide easy-to-use platform individuals can apply to get funds to pay bills including:
+                <br />
                 <h3>
                     . Utilities(water, gas, electric)  . Rent and Mortgages . Internet, TV, Phone and more..
                     <br />
                 </h3>
                 <br />
-                <h3>Axcess Fund aims to provide a funding platform where individuals can borrow money instantly to pay their essential bills.
+                <h3>Using All-digital lending enabled by AI Axcess-Fund platform,
                     <br />
-                    Especially, in this trying time, many of people are struggling to make end meets.
+                    get an instant funding to pay your bill at affordable rate/monthly payments.
                     <br />
                     <br />
-                    No hidden or late fees or jargoon fee as long as user pay on time within selected term.
+                    Pay back wherever you are whenever & however you want!
+                    <br />
+                    Especially, in this trying time, many  people are struggling to make end meets.
+                    <br />
+                    <br />
+                    No late fees, penalties, or hidden interest, ever.
                     <br />
                     <br />
                     <h4>
-                        Unlike most credit card companies, our business is built to help you say yes - not to profit off mistakes or misfortunes. Only if customer win, we win!
+                        Unlike most credit card companies, our business is built to help you say yes - not to profit off mistakes or misfortunes.
+                        <br />
+                        Only if customer win, we win!
                         Customers can choose to pay in 3-48 equal monthly payments with rates between 0-30% APR.
                     </h4>
                     <br />
